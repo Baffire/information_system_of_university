@@ -1,0 +1,65 @@
+* {
+    font-size: 15px;
+}
+
+body {
+    background: #edeef0;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: white;
+}
+
+.nav-link a {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.title {
+    color: white;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleLink:hover {
+    text-decoration: none;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.page-link {
+    color: #38c172;
+    border: 1px solid #38c17273;
+}
+
+.page-item.active .page-link {
+    background-color: #38c172;
+    border-color: #38c172;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #38c172;
+    background-color: #38c172;
+}
+
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1600px;
+    }
+}
+
+input:focus,
+option:focus{
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}

@@ -1,0 +1,19 @@
+.login,
+.resetPassword {
+    position: relative;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 500px;
+}
+
+.login p {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+

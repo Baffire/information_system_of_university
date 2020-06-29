@@ -1,0 +1,15 @@
+.personal {
+    background: white;
+    padding: 30px 5px 30px 5px;
+    border-radius: 10px;
+}
+
+.personal table tr td {
+    max-width: 150px;
+    overflow: auto;
+}
+
+.personal table tr:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+}
+

@@ -1,0 +1,34 @@
+.navigation {
+    background: white;
+    padding: 30px 5px 30px 5px;
+    border-radius: 10px;
+
+}
+
+.navigation-list {
+    background: white;
+    padding: 30px 10px;
+
+}
+
+.navigation-item {
+    list-style-type: none;
+    margin-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.navigation-list li:hover {
+    border-bottom: 1px solid #447096;
+}
+
+
+.navigation-item a {
+    display: block;
+    color: black;
+
+}
+
+.navigation-item a:hover {
+    text-decoration: none;
+    color: #0a5898;
+}

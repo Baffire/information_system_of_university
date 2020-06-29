@@ -1,0 +1,89 @@
+.personal {
+    background: white;
+    padding: 30px 5px 30px 5px;
+    border-radius: 10px;
+}
+
+.personal table tr:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+}
+
+td.text-left.curator {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.circle {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+}
+
+.done {
+    background-color: #38c17266;
+}
+
+.notDone {
+    background-color: #c1453826;
+}
+
+.noBorder {
+    border-bottom: none;
+}
+
+.top {
+    margin-bottom: 10px;
+}
+
+.documentTemplate a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.documentTemplate a:hover {
+    text-decoration: none;
+}
+
+.documentTemplate:hover {
+    position: relative;
+    top: -2px;
+}
+
+.personal table tr > td,
+.personal table th  {
+    vertical-align: middle;
+}
+
+.editProgress input[type = 'radio'] {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+.personal {
+    background: white;
+    padding: 30px 5px 30px 5px;
+    border-radius: 10px;
+}
+
+.personal table tr:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+}
+
+.personal table td,
+.personal table th {
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.documentTemplate a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.documentTemplate a:hover {
+    text-decoration: none;
+}
+
+.documentTemplate:hover {
+    position: relative;
+    top: -2px;
+}

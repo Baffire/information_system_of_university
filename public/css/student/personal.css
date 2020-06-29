@@ -1,0 +1,18 @@
+.personal {
+    background: white;
+    padding: 30px 5px 30px 5px;
+    border-radius: 10px;
+}
+
+.personal table tr:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+}
+
+.personal table td,
+.personal table th {
+    vertical-align: middle;
+}
+
+.personal input[type = 'checkbox'] {
+    cursor: pointer;
+}
